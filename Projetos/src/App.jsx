@@ -27,16 +27,12 @@ const App = () => {
           >
             Profissão do sonhos
           </Links>
-          <Links link={"https://br.linkedin.com/"}>Contato</Links>
+          <Links link={"https://wa.link/3pmxhm"}>Contato</Links>
         </ul>
       </div>
-      <div id="socialLinks">
-        <SocialLinks link={"https://github.com/Najul1a"} icon={"logo-github"} />
-        <SocialLinks
-          link={"https://instragram.com/anna_ofz_"}
-          icon={"logo-instagram"}
-        />
-        <SocialLinks link={"https://br.linkedin.com/"} icon={"logo-linkedin"} />
+      <div className="SocialLinks">
+        <SocialLinks link={"https://wa.link/3pmxhm"} />
+        <ion-icon name="logo-whatsapp"></ion-icon>
       </div>
       <div>
         <Rodape>Ana Geremias</Rodape>

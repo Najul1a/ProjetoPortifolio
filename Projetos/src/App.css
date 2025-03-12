@@ -7,13 +7,12 @@
 }
 
 :root {
-  --bg-url: url(./img/bg-desktop.jpg);
-  --text-color: #040404;
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(255, 255, 255, 0.5);
+  --bg-url: url(./img/mundo.jpg);
+  --text-color: #ffffffcf;
+  --stroke-color: rgba(255, 255, 255, 0.27);
+  --surface-color-hover: rgba(255, 255, 255, 0.336);
+  --highlight-color: rgba(255, 255, 255, 0.284);
 }
-
 /* Modificações do body */
 #App * {
   font-family: "Inter", sans-serif;
@@ -43,7 +42,7 @@
 #socialLinks {
   display: flex;
   justify-content: center;
-  padding: 700px;
+  padding: 24px;
   gap: 16px;
 
   font-size: 24px;
@@ -51,6 +50,9 @@
 
 @media (max-width: 700px) {
   :root {
-    --bg-url: url(./img/bg-mobile.jpg);
+    --bg-url: url(./img/mundo.jpg);
+  }
+  .light {
+    --bg-url: url(./img/mundo.jpg);
   }
 }
